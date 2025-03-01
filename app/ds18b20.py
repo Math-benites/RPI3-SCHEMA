@@ -27,7 +27,7 @@ def monitor_temperature():
             print(f"Temperatura: {temperature:.2f} °C")
             # Salva a temperatura no armazenamento
             storage.save_float("temperature", temperature)  # Salva a temperatura
-        time.sleep(2)  # Atraso de 2 segundos entre leituras
+        time.sleep(5)  # Atraso de 2 segundos entre leituras
 
 # Função para iniciar a monitorização da temperatura em uma thread
 def start_temperature_task():

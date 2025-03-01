@@ -15,6 +15,8 @@ source ~/app/myenv/bin/activate
 pip install --upgrade adafruit-blinka
 pip install adafruit-circuitpython-ds18x20 adafruit-circuitpython-onewire
 
+pip install paho-mqtt
+
 
 sudo nano /boot/firmware/config.txt
 Adicione a seguinte linha no final do arquivo:
