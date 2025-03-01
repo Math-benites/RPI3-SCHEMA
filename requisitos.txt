@@ -1,0 +1,16 @@
+sudo raspi-config
+
+
+Vá em Interfacing Options → P3: GPIO e ative.
+Vá em Interfacing Options → P5: I2C → Enable.
+
+sudo apt install -y i2c-tools python3-smbus
+sudo apt install python3-rpi.gpio -y
+apt install pip3
+pip3 install RPi.GPIO
+pip3 install smbus2
+
+python3 -m venv ~/app/myenv
+source ~/app/myenv/bin/activate
+pip install --upgrade adafruit-blinka
+
