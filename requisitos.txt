@@ -13,4 +13,10 @@ pip3 install smbus2
 python3 -m venv ~/app/myenv
 source ~/app/myenv/bin/activate
 pip install --upgrade adafruit-blinka
+pip install adafruit-circuitpython-ds18x20 adafruit-circuitpython-onewire
+
+
+sudo nano /boot/firmware/config.txt
+Adicione a seguinte linha no final do arquivo:
+dtoverlay=w1-gpio
 
