@@ -6,15 +6,27 @@ STORAGE_FILE = "storage.json"
 
 # Função para carregar dados do arquivo
 def load_data():
-    if os.path.exists(STORAGE_FILE):
-        with open(STORAGE_FILE, "r") as file:
-            return json.load(file)
-    return {}
+    if not os.path.exists(STORAGE_FILE):
+        return {}
 
-# Função para salvar os dados no arquivo
+    try:
+        with open(STORAGE_FILE, "r") as file:
+            data = json.load(file)
+            return data if isinstance(data, dict) else {}
+    except (json.JSONDecodeError, ValueError):
+        print("Erro ao carregar storage.json. O arquivo pode estar corrompido. Resetando...")
+        return {}
+
+# Função para salvar os dados no arquivo de forma segura
 def save_data(data):
-    with open(STORAGE_FILE, "w") as file:
-        json.dump(data, file)
+    temp_file = STORAGE_FILE + ".tmp"
+
+    try:
+        with open(temp_file, "w") as file:
+            json.dump(data, file, indent=4)
+        os.replace(temp_file, STORAGE_FILE)  # Substitui o original somente se a gravação foi bem-sucedida
+    except Exception as e:
+        print(f"Erro ao salvar o arquivo JSON: {e}")
 
 # Função para carregar um valor inteiro
 def load_int(key, default=0):
