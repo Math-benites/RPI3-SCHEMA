@@ -16,9 +16,36 @@ pip install --upgrade adafruit-blinka
 pip install adafruit-circuitpython-ds18x20 adafruit-circuitpython-onewire
 
 pip install paho-mqtt
+pip install fastapi uvicorn
 
 
 sudo nano /boot/firmware/config.txt
 Adicione a seguinte linha no final do arquivo:
 dtoverlay=w1-gpio
+
+
+- iniciando com sistema
+
+sudo nano /etc/systemd/system/express.service
+
+[Unit]
+Description=Express Script
+After=network.target
+
+[Service]
+ExecStart=/home/benites/app/myenv/bin/python /home/benites/app/main.py
+WorkingDirectory=/home/benites/app
+User=benites 
+Group=benites  
+Restart=always
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=VIRTUAL_ENV=/home/benites/app/myenv
+ExecStartPre=/bin/sleep 10
+
+[Install]
+WantedBy=multi-user.target
+
+sudo systemctl daemon-reload       # Recarrega os arquivos de configuração do systemd
+sudo systemctl enable express.service  # Habilita o serviço para iniciar no boot
+
 
