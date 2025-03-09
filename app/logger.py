@@ -56,7 +56,8 @@ def setup_logger():
     # Adicionar handler para salvar logs em arquivo com limitação de tamanho
     if LOG_TO_FILE:
         max_size = get_max_file_size()
-        rotating_handler = logging.handlers.RotatingFileHandler(LOG_FILE, maxBytes=max_size, backupCount=3)
+        # Definindo backupCount como 0 para não manter arquivos antigos e sobrescrever o atual
+        rotating_handler = logging.handlers.RotatingFileHandler(LOG_FILE, maxBytes=max_size, backupCount=0)
         rotating_handler.setLevel(logging.DEBUG)
         rotating_handler.setFormatter(console_formatter)
         logger.addHandler(rotating_handler)

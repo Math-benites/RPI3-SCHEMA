@@ -1,4 +1,5 @@
 sudo raspi-config
+sudo timedatectl set-timezone America/Sao_Paulo
 
 
 Vá em Interfacing Options → P3: GPIO e ative.
@@ -14,6 +15,9 @@ python3 -m venv ~/app/myenv
 source ~/app/myenv/bin/activate
 pip install --upgrade adafruit-blinka
 pip install adafruit-circuitpython-ds18x20 adafruit-circuitpython-onewire
+pip install adafruit-circuitpython-charlcd
+sudo apt install python3-smbus
+
 
 pip install paho-mqtt
 pip install fastapi uvicorn
