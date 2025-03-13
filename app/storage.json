@@ -1,8 +1,8 @@
 {
-    "temperature": 29.625,
     "hardware": 340656,
-    "uptime": 5568.83,
+    "uptime": 33237.28,
+    "temperature": 34.687,
+    "gelo": 3,
     "credit": 0,
-    "salescounter": 22,
-    "gelo": 3
+    "salescounter": 4
 }

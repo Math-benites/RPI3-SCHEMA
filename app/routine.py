@@ -17,6 +17,11 @@ R1.direction = digitalio.Direction.OUTPUT
 R2.direction = digitalio.Direction.OUTPUT
 R3.direction = digitalio.Direction.OUTPUT
 
+R0.value = False
+R1.value = False
+R2.value = False
+R3.value = False
+
 def log(msg):
     """Função para imprimir logs com timestamp."""
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
