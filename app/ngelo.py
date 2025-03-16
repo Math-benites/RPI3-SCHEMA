@@ -1,45 +1,46 @@
-from mcp import mcp  # Importa o MCP23017 já inicializado
-import digitalio
+from gpiozero import Button  # Importa a classe Button do gpiozero
 import logger
 import storage
 import config
 from time import sleep
+import routine
 
-# Definição dos pinos no MCP23017
-N1 = mcp.get_pin(10)   # Pino B3 (Nível 1)
-N2 = mcp.get_pin(11)   # Pino B4 (Nível 2)
-N3 = mcp.get_pin(12)   # Pino B5 (Nível 3)
+# Definição dos pinos GPIO para os níveis de gelo
+N1_PIN = 22  # Defina os pinos físicos do Raspberry Pi (exemplo: GPIO 22)
+N2_PIN = 23  # GPIO 23
+N3_PIN = 24  # GPIO 24
 
-# Configura os pinos como entrada com pull-up
-N1.direction = digitalio.Direction.INPUT
-N1.pull = digitalio.Pull.UP
-
-N2.direction = digitalio.Direction.INPUT
-N2.pull = digitalio.Pull.UP
-
-N3.direction = digitalio.Direction.INPUT
-N3.pull = digitalio.Pull.UP
+# Configuração dos botões para os pinos de entrada
+N1 = Button(N1_PIN, pull_up=True)  # Configura N1 com pull-up
+N2 = Button(N2_PIN, pull_up=True)  # Configura N2 com pull-up
+N3 = Button(N3_PIN, pull_up=True)  # Configura N3 com pull-up
 
 def ngelo_task():
     nivel_gelo = 0  # Valor inicial
 
-    while True:
+    while True:        
         # Verifica o estado dos sensores para determinar o nível de gelo
-        if not N3.value:  # Nível 3 fechado (gelo alto)
+        if N3.is_pressed:  # Nível 3 fechado (gelo alto)
             nivel_gelo = 3
             logger.log_message("Gelo no Nível 3 (Alto)", level="info")
-        elif not N2.value:  # Nível 2 fechado (gelo médio)
+            routine.rele_motor.off()
+        elif N2.is_pressed:  # Nível 2 fechado (gelo médio)
             nivel_gelo = 2
             logger.log_message("Gelo no Nível 2 (Médio)", level="info")
-        elif not N1.value:  # Nível 1 fechado (gelo baixo)
+            routine.rele_motor.off()
+        elif N1.is_pressed:  # Nível 1 fechado (gelo baixo)
             nivel_gelo = 1
             logger.log_message("Gelo no Nível 1 (Baixo)", level="info")
+            routine.rele_motor.off()
         else:  # Se todos os sensores estiverem abertos
             nivel_gelo = 0
             logger.log_message("Gelo: Vazio", level="info")
+            routine.rele_motor.on()
+
 
         # Salva o valor do nível de gelo no storage
         storage.save_int("gelo", nivel_gelo)
 
         sleep(15.0)  # Delay para não sobrecarregar a CPU
+
 

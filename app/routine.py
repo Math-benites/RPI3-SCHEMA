@@ -1,26 +1,22 @@
 import time
+from gpiozero import LED, OutputDevice
 import config
 import storage
-from mcp import mcp  # Importa o MCP23017 já inicializado
-import digitalio
 import logger
 
-# Definição dos pinos do MCP23017
-R0 = mcp.get_pin(0)   # Pino A0 no MCP23017 (LED READY)
-R1 = mcp.get_pin(1)   # Pino A1 no MCP23017 (LED RUNNING)
-R2 = mcp.get_pin(2)   # Pino A2 no MCP23017 (RELE MOTOR)
-R3 = mcp.get_pin(3)   # Pino A3 no MCP23017 (RELE RELE TAMPA)
+# Definição dos pinos GPIO para os LEDs e relés
+R0_PIN = 19  # LED READY
+R1_PIN = 16  # LED RUNNING
+R2_PIN = 26  # LED VAZIO
+R3_PIN = 20  # RELE MOTOR
+R4_PIN = 21  # RELE TAMPA
 
-# Configura os pinos como saída
-R0.direction = digitalio.Direction.OUTPUT
-R1.direction = digitalio.Direction.OUTPUT
-R2.direction = digitalio.Direction.OUTPUT
-R3.direction = digitalio.Direction.OUTPUT
-
-R0.value = False
-R1.value = False
-R2.value = False
-R3.value = False
+# Configuração dos LEDs e relés
+led_ready = LED(R0_PIN)
+led_running = LED(R1_PIN)
+led_vazio = LED(R2_PIN)
+rele_motor = OutputDevice(R3_PIN)
+rele_tampa = OutputDevice(R4_PIN)
 
 def log(msg):
     """Função para imprimir logs com timestamp."""
@@ -32,9 +28,9 @@ def routine_task():
     while True:
         # Se houver crédito, acende o LED READY
         if config.credit > 0:
-            R0.value = True
+            led_ready.on()
         else:
-            R0.value = False
+            led_ready.off()
 
         # Se a rotina for iniciada
         if config.start_routine:
@@ -42,17 +38,21 @@ def routine_task():
             config.is_routine_running = True
 
             # Acende o LED RUNNING
-            R1.value = True
+            led_running.on()
             logger.log_message("Routine -> START")
-            R2.value = True
+            
+            # Aciona o relé do motor
+            rele_motor.on()
             time.sleep(3)  # Aguarda 3 segundos
-            R3.value = True
+            
+            # Aciona o relé da tampa
+            rele_tampa.on()
             time.sleep(3)  # Aguarda 3 segundos
 
-            # Desliga o LED RUNNING
-            R1.value = False
-            R2.value = False
-            R3.value = False
+            # Desliga os LEDs e relés
+            led_running.off()
+            rele_motor.off()
+            rele_tampa.off()
             logger.log_message("Routine -> END")
 
             config.is_routine_running = False

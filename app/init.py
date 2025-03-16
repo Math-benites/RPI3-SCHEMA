@@ -14,6 +14,8 @@ def get_uptime():
     except FileNotFoundError:
         print("Erro ao ler o uptime do sistema.")
         return 0.0
+    time.sleep(1.0)  # Pequeno delay para evitar uso excessivo da CPU
+
 
 # Função para inicializar o sistema, definir o hardware e o uptime
 def main():

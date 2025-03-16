@@ -32,4 +32,4 @@ def update_display():
             lcd.lcd_display_string("                   ", 3, 1)  # Apaga a mensagem
             lcd.lcd_display_string(f"Nivel Gelo : [{gelo_display}]", 4, 1)
 
-        time.sleep(0.1)  # Pequeno delay para evitar sobrecarga
+        time.sleep(1)  # Pequeno delay para evitar sobrecarga
