@@ -8,7 +8,7 @@ def read_temperature():
     try:
         with open(sensor_path, 'r') as f:
             lines = f.readlines()
-            if lines[0].strip()[-3:] == 'YES':
+            if lines and lines[0].strip()[-3:] == 'YES':
                 # Extrai e converte a temperatura para Celsius
                 temp_data = lines[1].split('t=')[1]
                 temperature = float(temp_data) / 1000  # Converte para Celsius

@@ -1,169 +1,862 @@
-2025-03-04 16:33:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 269936.91, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:33:43 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
-2025-03-04 16:33:43 - INFO - [340656] - Server: mqtt.eclipseprojects.io
-2025-03-04 16:33:43 - INFO - [340656] - Port: 1883
-2025-03-04 16:33:43 - INFO - [340656] - Topic: express/340656/publish
-2025-03-04 16:33:48 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
-2025-03-04 16:33:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.062, 'hardware': 340656, 'uptime': 32.54, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:34:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.125, 'hardware': 340656, 'uptime': 43.5, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:34:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.125, 'hardware': 340656, 'uptime': 54.5, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:34:38 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 65.41, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:34:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 76.39, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:35:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 87.35, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:35:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 98.92, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:35:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 110.66, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:35:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 122.41, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:35:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 133.33, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:35:57 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 144.3, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:36:08 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 155.24, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:36:19 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 166.2, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:36:30 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 177.13, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:36:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 188.09, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:36:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 199.74, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:37:04 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 211.5, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:37:15 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 222.46, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:37:26 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 233.4, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:37:37 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 244.35, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:37:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 255.34, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:37:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 266.32, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:38:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 277.29, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:38:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 288.89, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:38:32 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 299.83, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:38:43 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 310.8, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:38:54 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 321.78, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:39:05 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 332.75, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:39:16 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 343.72, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:39:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 354.66, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:39:39 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 366.27, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:39:50 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 377.2, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:40:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 388.16, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:40:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 399.11, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:40:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 410.1, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:40:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 421.06, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:40:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 432.02, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:40:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 443.54, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:41:08 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 455.3, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:41:19 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 466.28, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:41:30 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 477.24, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:41:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 488.22, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:41:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 499.17, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:42:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 510.11, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:42:14 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 521.08, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:42:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 532.64, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:42:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 543.56, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:42:47 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 554.51, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:42:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 565.5, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:43:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 576.46, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:43:20 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 587.38, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:43:31 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 598.31, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:43:43 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 609.97, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:43:53 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 620.85, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:44:04 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 631.79, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:44:15 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 642.73, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:44:26 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 653.68, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:44:37 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 664.65, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:44:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 675.6, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:44:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 686.51, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:45:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 697.49, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:45:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 708.43, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:45:32 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 719.41, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:45:43 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 730.42, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:45:54 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 741.39, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:46:05 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 752.88, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:46:16 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.125, 'hardware': 340656, 'uptime': 763.84, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:46:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.125, 'hardware': 340656, 'uptime': 774.81, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:46:38 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 785.78, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:46:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.125, 'hardware': 340656, 'uptime': 796.73, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:47:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.125, 'hardware': 340656, 'uptime': 807.65, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:47:11 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.062, 'hardware': 340656, 'uptime': 818.59, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:47:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.062, 'hardware': 340656, 'uptime': 830.19, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:47:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.125, 'hardware': 340656, 'uptime': 841.13, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:47:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.125, 'hardware': 340656, 'uptime': 852.07, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:47:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 863.04, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:48:07 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 874.0, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:48:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 884.96, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:48:29 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 895.91, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:48:40 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 907.52, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:48:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 918.48, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:49:02 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 929.46, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:49:13 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.25, 'hardware': 340656, 'uptime': 940.44, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:49:24 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 951.35, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:49:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 962.32, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:49:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 973.31, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:49:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 984.94, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:50:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.312, 'hardware': 340656, 'uptime': 995.93, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:50:20 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 1006.91, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:50:30 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 1017.88, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:50:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 1028.84, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:50:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 1039.77, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:51:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 1050.73, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:51:15 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.5, 'hardware': 340656, 'uptime': 1062.23, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:51:26 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 1073.13, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:51:37 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 1084.1, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:51:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.375, 'hardware': 340656, 'uptime': 1095.09, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:51:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 1106.05, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:52:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 1116.97, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:52:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.437, 'hardware': 340656, 'uptime': 1127.97, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:52:39 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
-2025-03-04 16:52:39 - INFO - [340656] - Server: mqtt.eclipseprojects.io
-2025-03-04 16:52:39 - INFO - [340656] - Port: 1883
-2025-03-04 16:52:39 - INFO - [340656] - Topic: express/340656/publish
-2025-03-04 16:52:45 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
-2025-03-04 16:52:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.187, 'hardware': 340656, 'uptime': 33.82, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:52:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.125, 'hardware': 340656, 'uptime': 44.78, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:55:14 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 55.75, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:55:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.062, 'hardware': 340656, 'uptime': 66.72, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:55:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.062, 'hardware': 340656, 'uptime': 77.67, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:55:47 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.062, 'hardware': 340656, 'uptime': 88.59, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:55:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 100.24, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:56:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 111.24, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:56:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 122.26, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:56:31 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.812, 'hardware': 340656, 'uptime': 133.24, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:56:42 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 144.22, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:56:53 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 155.23, 'credit': 0, 'salescounter': 8}
-2025-03-04 16:57:04 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 166.21, 'credit': 1, 'salescounter': 8}
-2025-03-04 16:57:16 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 177.8, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:57:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 188.77, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:57:38 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 199.79, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:57:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 210.74, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:58:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.812, 'hardware': 340656, 'uptime': 221.77, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:58:11 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 232.78, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:58:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 243.78, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:58:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 255.41, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:58:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 266.4, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:58:59 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
-2025-03-04 16:58:59 - INFO - [340656] - Server: mqtt.eclipseprojects.io
-2025-03-04 16:58:59 - INFO - [340656] - Port: 1883
-2025-03-04 16:58:59 - INFO - [340656] - Topic: express/340656/publish
-2025-03-04 16:59:04 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
-2025-03-04 16:59:05 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 286.78, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:59:20 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
-2025-03-04 16:59:20 - INFO - [340656] - Server: mqtt.eclipseprojects.io
-2025-03-04 16:59:20 - INFO - [340656] - Port: 1883
-2025-03-04 16:59:20 - INFO - [340656] - Topic: express/340656/publish
-2025-03-04 16:59:26 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
-2025-03-04 16:59:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 308.27, 'credit': 0, 'salescounter': 9}
-2025-03-04 16:59:30 - INFO - [340656] - Crédito Adicionado: 1
-2025-03-04 16:59:33 - INFO - [340656] - Vendas realizadas: 10
-2025-03-04 16:59:33 - INFO - [340656] - Routine -> START
-2025-03-04 16:59:37 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 319.26, 'credit': 0, 'salescounter': 10}
-2025-03-04 16:59:39 - INFO - [340656] - Routine -> END
-2025-03-04 16:59:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.062, 'hardware': 340656, 'uptime': 330.24, 'credit': 0, 'salescounter': 10}
-2025-03-04 16:59:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 341.22, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:00:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 352.18, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:00:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 363.13, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:00:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 374.66, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:00:44 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 385.63, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:00:55 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 396.59, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:01:06 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 407.57, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:01:17 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.062, 'hardware': 340656, 'uptime': 418.55, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:01:28 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 429.49, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:01:39 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 440.46, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:01:50 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 452.09, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:02:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 463.12, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:02:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.875, 'hardware': 340656, 'uptime': 474.08, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:02:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 485.06, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:02:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 496.03, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:02:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 39.0, 'hardware': 340656, 'uptime': 507.02, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:02:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 518.03, 'credit': 0, 'salescounter': 10}
-2025-03-04 17:03:07 - INFO - [340656] - 📤 Enviado dados: {'temperature': 38.937, 'hardware': 340656, 'uptime': 529.03, 'credit': 0, 'salescounter': 10}
+2025-03-16 10:51:33 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:51:37 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56522.2, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:51:48 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:51:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56533.95, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:52:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56545.7, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:52:03 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:52:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.687, 'hardware': 340656, 'uptime': 56557.43, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:52:18 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:52:24 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.687, 'hardware': 340656, 'uptime': 56569.27, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:52:34 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:52:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56580.96, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:52:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56592.77, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:52:49 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:53:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56604.53, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:53:04 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:53:11 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56616.34, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:53:20 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:53:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56628.07, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:53:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56639.83, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:53:35 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:53:47 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56651.63, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:53:50 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:53:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56663.42, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:54:06 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:54:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56675.28, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:54:21 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:54:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56687.05, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:54:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56698.92, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:54:36 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:54:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56710.68, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:54:52 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:54:57 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56722.36, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:55:07 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:55:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56734.23, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:55:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56745.95, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:55:22 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:55:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56757.76, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:55:37 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:55:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56769.51, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:55:53 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:55:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56781.29, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:56:08 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:56:08 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56793.11, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:56:20 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56804.88, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:56:23 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:56:32 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56816.7, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:56:39 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:56:43 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56828.43, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:56:54 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:56:55 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56840.21, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:57:07 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56851.92, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:57:09 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:57:19 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56863.7, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:57:24 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:57:30 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56875.47, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:57:40 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:57:42 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56887.19, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:57:54 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56899.02, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:57:55 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:58:06 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56910.82, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:58:10 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:58:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56922.56, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:58:26 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:58:29 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 56934.27, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:58:41 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:58:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56946.14, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:58:53 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56957.92, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:58:56 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:59:05 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56969.68, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:59:12 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:59:16 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56981.51, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:59:27 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:59:28 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 56993.32, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:59:40 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57005.11, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:59:42 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 10:59:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57016.88, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 10:59:58 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:00:04 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57028.69, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:00:13 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:00:15 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57040.43, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:00:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57052.19, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:00:28 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:00:39 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57064.09, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:00:43 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:00:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57075.86, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:00:59 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:01:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57087.52, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:01:14 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:01:14 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57099.38, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:01:26 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57111.13, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:01:29 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:01:38 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57122.96, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:01:45 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:01:50 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57134.76, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:02:00 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:02:02 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57146.58, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:02:13 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57158.35, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:02:15 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:02:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57170.04, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:02:30 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:02:37 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57181.95, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:02:46 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:02:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57193.75, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:03:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57205.54, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:03:01 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:03:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57217.3, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:03:16 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:03:24 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57229.05, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:03:31 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:03:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57240.87, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:03:47 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:03:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57252.71, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:03:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57264.47, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:04:02 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:04:11 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57276.26, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:04:17 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:04:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57288.0, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:04:32 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:04:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57299.78, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:04:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57311.51, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:04:48 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:04:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57323.39, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:05:03 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:05:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57335.05, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:05:18 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:05:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57346.84, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:05:33 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:05:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57358.68, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:05:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57370.43, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:05:49 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:05:57 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57382.25, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:06:04 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:06:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57394.07, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:06:19 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:06:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57405.88, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:06:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57417.67, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:06:35 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:06:44 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57429.34, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:06:50 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:06:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57441.14, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:07:05 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:07:08 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57452.99, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:07:20 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57464.65, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:07:21 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:07:31 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57476.43, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:07:36 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:07:43 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57488.17, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:07:51 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:07:55 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57500.03, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:08:07 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:08:07 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57511.78, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:08:19 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57523.62, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:08:22 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:08:30 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57535.42, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:08:37 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:08:42 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57547.15, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:08:52 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:08:54 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57558.93, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:09:06 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57570.71, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:09:08 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:09:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57582.54, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:09:23 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:09:29 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57594.27, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:09:38 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:09:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57606.09, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:09:53 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57617.85, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:09:54 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:10:05 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.812, 'hardware': 340656, 'uptime': 57629.72, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:10:09 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:10:16 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57641.45, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:10:24 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:10:28 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57653.25, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:10:40 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:10:40 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57665.06, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:10:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57676.83, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:10:55 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:11:04 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57688.63, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:11:10 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:11:15 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57700.44, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:11:26 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:11:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57712.19, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:11:39 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57724.05, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:11:41 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:11:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57735.83, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:11:56 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:12:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57747.59, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:12:11 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:12:14 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57759.26, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:12:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57770.33, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:12:27 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:12:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57781.47, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:12:42 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:12:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57792.6, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:12:57 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:12:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 57803.65, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:13:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57814.85, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:13:13 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:13:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57826.07, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 11:13:28 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 11:13:32 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.937, 'hardware': 340656, 'uptime': 57837.24, 'credit': 1, 'salescounter': 0, 'gelo': 3}
+2025-03-16 14:56:58 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 14:56:58 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:56:58 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 14:56:58 - INFO - [340656] - Port: 1883
+2025-03-16 14:56:58 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 14:57:04 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 14:57:05 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.312, 'hardware': 340656, 'uptime': 3426.26, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:57:13 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:57:16 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.187, 'hardware': 340656, 'uptime': 3437.47, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:57:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.125, 'hardware': 340656, 'uptime': 3449.12, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:57:28 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:57:39 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.062, 'hardware': 340656, 'uptime': 3460.37, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:57:43 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:57:50 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.937, 'hardware': 340656, 'uptime': 3471.63, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:57:58 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:58:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.937, 'hardware': 340656, 'uptime': 3482.97, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:58:13 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.875, 'hardware': 340656, 'uptime': 3494.3, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:58:14 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:58:24 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.75, 'hardware': 340656, 'uptime': 3505.39, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:58:29 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:58:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.812, 'hardware': 340656, 'uptime': 3516.73, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:58:44 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:58:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 0.0, 'hardware': 340656, 'uptime': 3527.93, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:58:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 0.0, 'hardware': 340656, 'uptime': 3539.33, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:58:59 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:59:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 0.0, 'hardware': 340656, 'uptime': 3550.63, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:59:14 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:59:20 - INFO - [340656] - 📤 Enviado dados: {'temperature': 0.0, 'hardware': 340656, 'uptime': 3562.06, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:59:30 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:59:32 - INFO - [340656] - 📤 Enviado dados: {'temperature': 0.0, 'hardware': 340656, 'uptime': 3573.35, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:59:43 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3585.12, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 14:59:45 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 14:59:55 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 3596.39, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:00:00 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:00:06 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 3607.63, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:00:15 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:00:17 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 3619.11, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:00:28 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 3630.18, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:00:30 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:00:40 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.687, 'hardware': 340656, 'uptime': 3641.48, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:00:46 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:00:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.687, 'hardware': 340656, 'uptime': 3652.81, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:01:01 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:01:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.75, 'hardware': 340656, 'uptime': 3664.28, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:01:14 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.75, 'hardware': 340656, 'uptime': 3675.45, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:01:16 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:01:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.687, 'hardware': 340656, 'uptime': 3686.8, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:01:31 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:01:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.687, 'hardware': 340656, 'uptime': 3697.88, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:01:47 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:01:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.687, 'hardware': 340656, 'uptime': 3709.43, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:01:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 3720.67, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:02:02 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:02:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.687, 'hardware': 340656, 'uptime': 3731.78, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:02:17 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:02:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.687, 'hardware': 340656, 'uptime': 3743.43, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:02:32 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:02:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3754.77, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:02:44 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.687, 'hardware': 340656, 'uptime': 3766.22, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:02:48 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:02:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 3777.32, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:03:03 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:03:07 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.687, 'hardware': 340656, 'uptime': 3788.8, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:03:18 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:03:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 3800.07, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:03:30 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 3811.37, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:03:33 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:03:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3822.6, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:03:49 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:03:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 3834.22, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:04:04 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:04:04 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3846.06, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:04:16 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3858.16, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:04:19 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:04:28 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 3869.44, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:04:34 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:04:39 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3880.73, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:04:49 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:04:50 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 3891.87, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:05:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3903.13, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:05:05 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:05:13 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 3914.42, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:05:20 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:05:24 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3925.64, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:05:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3937.0, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:05:35 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:05:47 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 3948.18, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:05:51 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:05:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3959.64, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:06:06 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:06:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3971.22, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:06:21 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:06:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 3983.1, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:06:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 3994.55, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:06:37 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:06:44 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4005.78, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:06:52 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:06:55 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4017.24, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:07:07 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4028.49, 'credit': 1, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:07:07 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:07:11 - INFO - [340656] - Crédito Adicionado: 2
+2025-03-16 15:07:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4039.85, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:07:22 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:07:30 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4051.69, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:07:38 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:07:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4062.9, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:07:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4074.01, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:07:53 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:08:04 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4085.48, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:08:08 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:08:15 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4096.77, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:08:23 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:08:26 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4107.94, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:08:38 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4119.41, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:08:39 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:08:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4130.82, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:08:54 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:09:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4142.8, 'credit': 2, 'salescounter': 72, 'gelo': 3}
+2025-03-16 15:09:04 - INFO - [340656] - Routine -> START
+2025-03-16 15:09:04 - INFO - [340656] - Vendas realizadas: 73
+2025-03-16 15:09:09 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:09:10 - INFO - [340656] - Routine -> END
+2025-03-16 15:09:13 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4154.95, 'credit': 1, 'salescounter': 73, 'gelo': 3}
+2025-03-16 15:09:24 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:09:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4166.41, 'credit': 1, 'salescounter': 73, 'gelo': 3}
+2025-03-16 15:09:34 - INFO - [340656] - Routine -> START
+2025-03-16 15:09:34 - INFO - [340656] - Vendas realizadas: 74
+2025-03-16 15:09:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 4177.48, 'credit': 0, 'salescounter': 74, 'gelo': 3}
+2025-03-16 15:09:40 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:09:40 - INFO - [340656] - Routine -> END
+2025-03-16 15:09:47 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4189.03, 'credit': 0, 'salescounter': 74, 'gelo': 3}
+2025-03-16 15:09:55 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:09:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4200.26, 'credit': 0, 'salescounter': 74, 'gelo': 3}
+2025-03-16 15:10:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4211.67, 'credit': 0, 'salescounter': 74, 'gelo': 3}
+2025-03-16 15:10:10 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:10:12 - INFO - [340656] - Crédito Adicionado: 1
+2025-03-16 15:10:16 - INFO - [340656] - Routine -> START
+2025-03-16 15:10:16 - INFO - [340656] - Vendas realizadas: 75
+2025-03-16 15:10:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 4222.92, 'credit': 0, 'salescounter': 75, 'gelo': 3}
+2025-03-16 15:10:22 - INFO - [340656] - Routine -> END
+2025-03-16 15:10:26 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:10:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4234.38, 'credit': 0, 'salescounter': 75, 'gelo': 3}
+2025-03-16 15:10:41 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:10:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4246.34, 'credit': 0, 'salescounter': 75, 'gelo': 3}
+2025-03-16 15:10:48 - INFO - [340656] - Crédito Adicionado: 1
+2025-03-16 15:10:50 - INFO - [340656] - Routine -> START
+2025-03-16 15:10:50 - INFO - [340656] - Vendas realizadas: 76
+2025-03-16 15:10:56 - INFO - [340656] - Routine -> END
+2025-03-16 15:10:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 4257.44, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:10:56 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:11:07 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4269.14, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:11:11 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:11:19 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 4280.33, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:11:27 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:11:30 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 4291.81, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:11:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4303.24, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:11:42 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:11:53 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4314.58, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:11:57 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:12:03 - INFO - [340656] - Interrompido programa
+2025-03-16 15:12:09 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:12:09 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:12:09 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:12:09 - INFO - [340656] - Port: 1883
+2025-03-16 15:12:09 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:12:15 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:12:16 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4338.22, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:12:24 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:12:28 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4350.2, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:12:39 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:12:40 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4361.48, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:12:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4372.79, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:12:54 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:13:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.625, 'hardware': 340656, 'uptime': 4384.31, 'credit': 0, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:13:05 - INFO - [340656] - Crédito Adicionado: 1
+2025-03-16 15:13:10 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:13:14 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4395.59, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:13:25 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:13:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4406.88, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:13:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4418.04, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:13:40 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:13:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4429.57, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:13:55 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:14:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4441.37, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:14:11 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:14:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4453.36, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:14:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4464.54, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:14:26 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:14:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4475.77, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:14:41 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:14:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4487.08, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:14:56 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:14:57 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4498.51, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:15:08 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4509.67, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:15:12 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:15:19 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4520.87, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:15:27 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:15:31 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4532.77, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:15:42 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:15:43 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4544.86, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:15:55 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4556.69, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:15:57 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:16:06 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4567.78, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:16:13 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:16:17 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4579.15, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:16:28 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:16:29 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4590.44, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:16:40 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4601.62, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:16:43 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:16:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4613.05, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:16:59 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:17:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4624.27, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:17:14 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4635.71, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:17:14 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:17:26 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4647.53, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:17:29 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:17:38 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4659.89, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:17:45 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:17:50 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4671.7, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:18:00 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:18:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4682.89, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:18:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4694.03, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:18:15 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:18:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4705.25, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:18:31 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:18:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4716.43, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:18:46 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:18:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4727.74, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:18:57 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4739.09, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:19:01 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:19:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4751.49, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:19:17 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:19:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4763.45, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:19:32 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:19:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4775.09, 'credit': 1, 'salescounter': 76, 'gelo': 3}
+2025-03-16 15:19:36 - INFO - [340656] - Routine -> START
+2025-03-16 15:19:36 - INFO - [340656] - Vendas realizadas: 77
+2025-03-16 15:19:42 - INFO - [340656] - Routine -> END
+2025-03-16 15:19:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4787.25, 'credit': 0, 'salescounter': 77, 'gelo': 3}
+2025-03-16 15:19:47 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:19:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 4799.26, 'credit': 0, 'salescounter': 77, 'gelo': 3}
+2025-03-16 15:20:02 - INFO - [340656] - Crédito Adicionado: 1
+2025-03-16 15:20:03 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:20:04 - INFO - [340656] - Routine -> START
+2025-03-16 15:20:04 - INFO - [340656] - Vendas realizadas: 78
+2025-03-16 15:20:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4811.21, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:20:10 - INFO - [340656] - Routine -> END
+2025-03-16 15:20:18 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:20:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4823.43, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:20:33 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:20:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4835.1, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:20:44 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4846.23, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:20:48 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:20:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4857.53, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:21:04 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:21:07 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4868.8, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:21:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4880.24, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:21:19 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:21:30 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 4891.43, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:21:34 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:21:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4902.64, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:21:50 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:21:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 4913.93, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:22:04 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 4925.41, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:22:05 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:22:15 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 4936.63, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:22:20 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:22:26 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 4947.86, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:22:35 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:22:37 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 4959.02, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:22:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 4970.22, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:22:51 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:23:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 4982.56, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:23:06 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:23:13 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 4994.33, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:23:21 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:23:24 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5005.59, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:23:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5017.2, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:23:37 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:23:47 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5028.63, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:23:52 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:23:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 5039.9, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:24:07 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:24:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 5051.24, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:24:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5062.6, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:24:23 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:24:32 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 5073.95, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:24:38 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:24:44 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5085.69, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:24:53 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:24:55 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5096.95, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:25:07 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5108.35, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:25:09 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:25:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5119.67, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:25:24 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:25:29 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5130.95, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:25:39 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:25:40 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5142.12, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:25:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5153.53, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:25:54 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:26:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5165.22, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:26:10 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:26:16 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5177.25, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:26:25 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:26:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5189.23, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:26:34 - INFO - [340656] - Interrompido programa
+2025-03-16 15:26:39 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:26:39 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:26:39 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:26:39 - INFO - [340656] - Port: 1883
+2025-03-16 15:26:39 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:26:45 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:26:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5208.02, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:26:54 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:26:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5219.44, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:27:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5230.77, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:27:09 - INFO - [340656] - Gelo no Nível 2 (Médio)
+2025-03-16 15:27:20 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5242.17, 'credit': 0, 'salescounter': 78, 'gelo': 2}
+2025-03-16 15:27:25 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:27:32 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5253.74, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:27:40 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:27:43 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5265.07, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:27:55 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5276.6, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:27:55 - INFO - [340656] - Gelo no Nível 1 (Baixo)
+2025-03-16 15:28:06 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5287.71, 'credit': 0, 'salescounter': 78, 'gelo': 1}
+2025-03-16 15:28:11 - INFO - [340656] - Gelo no Nível 1 (Baixo)
+2025-03-16 15:28:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5299.43, 'credit': 0, 'salescounter': 78, 'gelo': 1}
+2025-03-16 15:28:26 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:28:29 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 5310.56, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:28:40 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5321.72, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:28:41 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:28:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5332.93, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:28:56 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:29:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5344.22, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:29:12 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:29:14 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5355.55, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:29:14 - INFO - [340656] - Interrompido programa
+2025-03-16 15:29:18 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:29:18 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:29:18 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:29:18 - INFO - [340656] - Port: 1883
+2025-03-16 15:29:18 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:29:20 - INFO - [340656] - Interrompido programa
+2025-03-16 15:29:31 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:29:31 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:29:31 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:29:31 - INFO - [340656] - Port: 1883
+2025-03-16 15:29:31 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:29:37 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:29:39 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5380.27, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:29:46 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:29:50 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 5391.66, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:30:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5402.82, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:30:01 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:30:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5413.92, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:30:17 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:30:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5425.21, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:30:32 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:30:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5436.53, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:30:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5448.15, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:30:47 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:30:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5459.86, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:31:02 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:31:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5472.12, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:31:18 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:31:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5483.83, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:31:33 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:31:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5495.69, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:31:36 - INFO - [340656] - Interrompido programa
+2025-03-16 15:31:41 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:31:41 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:31:41 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:31:41 - INFO - [340656] - Port: 1883
+2025-03-16 15:31:42 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:31:47 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:31:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5510.56, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:31:56 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:32:01 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5522.53, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:32:12 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:32:13 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5534.36, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:32:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5546.6, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:32:27 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:32:37 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5558.33, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:32:43 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:32:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5570.41, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:32:58 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:33:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5581.79, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:33:06 - INFO - [340656] - Interrompido programa
+2025-03-16 15:33:10 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:33:10 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:33:10 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:33:10 - INFO - [340656] - Port: 1883
+2025-03-16 15:33:10 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:33:16 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:33:17 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 5598.35, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:33:25 - INFO - [340656] - Gelo no Nível 2 (Médio)
+2025-03-16 15:33:28 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5609.57, 'credit': 0, 'salescounter': 78, 'gelo': 2}
+2025-03-16 15:33:39 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5621.04, 'credit': 0, 'salescounter': 78, 'gelo': 2}
+2025-03-16 15:33:40 - INFO - [340656] - Gelo no Nível 1 (Baixo)
+2025-03-16 15:33:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5632.34, 'credit': 0, 'salescounter': 78, 'gelo': 1}
+2025-03-16 15:33:56 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:34:02 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5643.47, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:34:11 - INFO - [340656] - Gelo no Nível 2 (Médio)
+2025-03-16 15:34:13 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5654.73, 'credit': 0, 'salescounter': 78, 'gelo': 2}
+2025-03-16 15:34:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5666.55, 'credit': 0, 'salescounter': 78, 'gelo': 2}
+2025-03-16 15:34:26 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:34:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5677.86, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:34:42 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:34:47 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5689.1, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:34:57 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:34:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5700.32, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:35:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5711.64, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:35:12 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:35:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 5722.9, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:35:28 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:35:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5734.59, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:35:43 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:35:44 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 5745.8, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:35:56 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5757.58, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:35:58 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:36:08 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5769.72, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:36:14 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:36:19 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5780.89, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:36:29 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:36:31 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5792.39, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:36:42 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 5803.64, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:36:45 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:36:47 - INFO - [340656] - Interrompido programa
+2025-03-16 15:38:40 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:38:40 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:38:40 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:38:40 - INFO - [340656] - Port: 1883
+2025-03-16 15:38:40 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:38:46 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:38:48 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5929.41, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:38:55 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:39:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 5941.37, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:39:10 - INFO - [340656] - Interrompido programa
+2025-03-16 15:43:44 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:43:44 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:43:44 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:43:44 - INFO - [340656] - Port: 1883
+2025-03-16 15:43:44 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:43:49 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:43:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 6232.35, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:43:55 - INFO - [340656] - Interrompido programa
+2025-03-16 15:44:02 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:44:03 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:44:03 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:44:03 - INFO - [340656] - Port: 1883
+2025-03-16 15:44:03 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:44:09 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:44:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6252.17, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:44:18 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:44:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 6264.15, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:44:33 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:44:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6275.9, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:44:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6287.75, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:44:49 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:44:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.375, 'hardware': 340656, 'uptime': 6299.44, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:45:04 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:45:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6310.64, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:45:11 - INFO - [340656] - Interrompido programa
+2025-03-16 15:45:15 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:45:15 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:45:15 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:45:16 - INFO - [340656] - Port: 1883
+2025-03-16 15:45:16 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:45:21 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:45:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6324.1, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:45:31 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:45:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6335.46, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:45:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6346.86, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:45:46 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:45:57 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 6358.19, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:46:01 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:46:08 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 6369.6, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:46:16 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:46:19 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6381.02, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:46:31 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6392.44, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:46:32 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:46:42 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6403.74, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:46:47 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:46:54 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6415.81, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:47:02 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:47:06 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6427.63, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:47:18 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:47:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6439.83, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:47:29 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6451.0, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:47:33 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:47:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.437, 'hardware': 340656, 'uptime': 6462.32, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:47:43 - INFO - [340656] - Interrompido programa
+2025-03-16 15:47:47 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:47:47 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:47:47 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:47:48 - INFO - [340656] - Port: 1883
+2025-03-16 15:47:48 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:47:53 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:47:54 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6476.04, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:48:03 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:48:06 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6487.51, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:48:17 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6498.89, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:48:18 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:48:29 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6510.17, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:48:34 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:48:40 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6521.51, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:48:49 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:48:51 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6533.08, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:49:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6544.3, 'credit': 0, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:49:04 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:49:15 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6556.22, 'credit': 0, 'salescounter': 78, 'gelo': 3}
+2025-03-16 15:49:20 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:49:26 - INFO - [340656] - Crédito Adicionado: 1
+2025-03-16 15:49:26 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6568.16, 'credit': 1, 'salescounter': 78, 'gelo': 0}
+2025-03-16 15:49:28 - INFO - [340656] - Routine -> START
+2025-03-16 15:49:28 - INFO - [340656] - Vendas realizadas: 79
+2025-03-16 15:49:34 - INFO - [340656] - Routine -> END
+2025-03-16 15:49:35 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:49:38 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6579.39, 'credit': 0, 'salescounter': 79, 'gelo': 0}
+2025-03-16 15:49:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6590.71, 'credit': 0, 'salescounter': 79, 'gelo': 0}
+2025-03-16 15:49:50 - INFO - [340656] - Gelo: Vazio
+2025-03-16 15:50:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6601.97, 'credit': 0, 'salescounter': 79, 'gelo': 0}
+2025-03-16 15:50:05 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:50:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6613.44, 'credit': 0, 'salescounter': 79, 'gelo': 3}
+2025-03-16 15:50:21 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:50:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 0, 'uptime': 6625.07, 'credit': 0, 'salescounter': 0, 'gelo': 0}
+2025-03-16 15:50:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 0, 'uptime': 6636.27, 'credit': 0, 'salescounter': 0, 'gelo': 0}
+2025-03-16 15:50:36 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:50:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6647.52, 'credit': 0, 'salescounter': 0, 'gelo': 3}
+2025-03-16 15:50:51 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:50:58 - INFO - [340656] - Crédito Adicionado: 1
+2025-03-16 15:50:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6659.43, 'credit': 0, 'salescounter': 0, 'gelo': 3}
+2025-03-16 15:50:59 - INFO - [340656] - Crédito Adicionado: 2
+2025-03-16 15:51:01 - INFO - [340656] - Crédito Adicionado: 3
+2025-03-16 15:51:02 - INFO - [340656] - Crédito Adicionado: 4
+2025-03-16 15:51:04 - INFO - [340656] - Crédito Adicionado: 5
+2025-03-16 15:51:05 - INFO - [340656] - Crédito Adicionado: 6
+2025-03-16 15:51:07 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:51:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6670.48, 'credit': 6, 'salescounter': 0, 'gelo': 3}
+2025-03-16 15:51:20 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.562, 'hardware': 340656, 'uptime': 6682.06, 'credit': 6, 'salescounter': 0, 'gelo': 3}
+2025-03-16 15:51:22 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:51:32 - INFO - [340656] - 📤 Enviado dados: {'temperature': 26.5, 'hardware': 340656, 'uptime': 6693.48, 'credit': 6, 'salescounter': 0, 'gelo': 3}
+2025-03-16 15:51:38 - INFO - [340656] - Gelo no Nível 3 (Alto)
+                                                              2025-03-16 15:51:03 - INFO - [340656] - 🔌 Conectando ao servidor MQTT...
+2025-03-16 15:51:03 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:51:03 - INFO - [340656] - Server: mqtt.eclipseprojects.io
+2025-03-16 15:51:03 - INFO - [340656] - Port: 1883
+2025-03-16 15:51:03 - INFO - [340656] - Topic: express/340656/publish
+2025-03-16 15:51:08 - INFO - [340656] - Routine -> START
+2025-03-16 15:51:08 - INFO - [340656] - Vendas realizadas: 1
+2025-03-16 15:51:09 - INFO - [340656] - ✅ Conectado ao MQTT com sucesso!
+2025-03-16 15:51:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.625, 'hardware': 340656, 'uptime': 33.66, 'credit': 5, 'salescounter': 1, 'gelo': 3}
+2025-03-16 15:51:14 - INFO - [340656] - Routine -> END
+2025-03-16 15:51:16 - INFO - [340656] - Routine -> START
+2025-03-16 15:51:16 - INFO - [340656] - Vendas realizadas: 2
+2025-03-16 15:51:18 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:51:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.687, 'hardware': 340656, 'uptime': 45.52, 'credit': 4, 'salescounter': 2, 'gelo': 3}
+2025-03-16 15:51:22 - INFO - [340656] - Routine -> END
+2025-03-16 15:51:22 - INFO - [340656] - Routine -> START
+2025-03-16 15:51:23 - INFO - [340656] - Vendas realizadas: 3
+2025-03-16 15:52:48 - INFO - [340656] - Routine -> END
+2025-03-16 15:52:48 - INFO - [340656] - Routine -> START
+2025-03-16 15:52:48 - INFO - [340656] - Vendas realizadas: 4
+2025-03-16 15:52:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.625, 'hardware': 340656, 'uptime': 56.69, 'credit': 2, 'salescounter': 4, 'gelo': 3}
+2025-03-16 15:52:53 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:52:55 - INFO - [340656] - Routine -> END
+2025-03-16 15:52:55 - INFO - [340656] - Routine -> START
+2025-03-16 15:52:55 - INFO - [340656] - Vendas realizadas: 5
+2025-03-16 15:53:01 - INFO - [340656] - Routine -> END
+2025-03-16 15:53:01 - INFO - [340656] - Vendas realizadas: 6
+2025-03-16 15:53:01 - INFO - [340656] - Routine -> START
+2025-03-16 15:53:04 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.562, 'hardware': 340656, 'uptime': 68.34, 'credit': 0, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:53:08 - INFO - [340656] - Routine -> END
+2025-03-16 15:53:08 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:53:15 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.625, 'hardware': 340656, 'uptime': 79.82, 'credit': 0, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:53:23 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:53:27 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.625, 'hardware': 340656, 'uptime': 91.27, 'credit': 0, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:53:38 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.687, 'hardware': 340656, 'uptime': 102.69, 'credit': 0, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:53:39 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:53:50 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.687, 'hardware': 340656, 'uptime': 114.62, 'credit': 0, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:53:54 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:54:02 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 126.53, 'credit': 0, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:54:09 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:54:13 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.75, 'hardware': 340656, 'uptime': 137.89, 'credit': 0, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:54:25 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:54:25 - INFO - [340656] - 📤 Enviado dados: {'temperature': 27.875, 'hardware': 340656, 'uptime': 149.36, 'credit': 0, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:54:36 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.0, 'hardware': 340656, 'uptime': 160.82, 'credit': 0, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:54:40 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:54:46 - INFO - [340656] - Crédito Adicionado: 1
+2025-03-16 15:54:47 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.062, 'hardware': 340656, 'uptime': 172.05, 'credit': 1, 'salescounter': 6, 'gelo': 3}
+2025-03-16 15:54:48 - INFO - [340656] - Routine -> START
+2025-03-16 15:54:48 - INFO - [340656] - Vendas realizadas: 7
+2025-03-16 15:54:54 - INFO - [340656] - Routine -> END
+2025-03-16 15:54:55 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:54:59 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.125, 'hardware': 340656, 'uptime': 183.21, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:55:11 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.25, 'hardware': 340656, 'uptime': 195.18, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:55:11 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:55:22 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.312, 'hardware': 340656, 'uptime': 206.98, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:55:26 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:55:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.437, 'hardware': 340656, 'uptime': 218.42, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:55:42 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:55:46 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.5, 'hardware': 340656, 'uptime': 230.24, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:55:57 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:55:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.625, 'hardware': 340656, 'uptime': 242.52, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:56:10 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.687, 'hardware': 340656, 'uptime': 254.1, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:56:12 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:56:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.812, 'hardware': 340656, 'uptime': 265.73, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:56:28 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:56:32 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.937, 'hardware': 340656, 'uptime': 276.95, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:56:43 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:56:44 - INFO - [340656] - 📤 Enviado dados: {'temperature': 28.937, 'hardware': 340656, 'uptime': 288.15, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:56:55 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.0, 'hardware': 340656, 'uptime': 299.68, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:56:59 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:57:06 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.062, 'hardware': 340656, 'uptime': 311.09, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:57:14 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:57:18 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.125, 'hardware': 340656, 'uptime': 322.28, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:57:29 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.187, 'hardware': 340656, 'uptime': 333.52, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:57:30 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:57:41 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.187, 'hardware': 340656, 'uptime': 345.21, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:57:45 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:57:52 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.187, 'hardware': 340656, 'uptime': 356.49, 'credit': 0, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:57:53 - INFO - [340656] - Crédito Adicionado: 1
+2025-03-16 15:58:00 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:58:03 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.25, 'hardware': 340656, 'uptime': 367.74, 'credit': 1, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:58:14 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.25, 'hardware': 340656, 'uptime': 378.85, 'credit': 1, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:58:16 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:58:26 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.312, 'hardware': 340656, 'uptime': 390.39, 'credit': 1, 'salescounter': 7, 'gelo': 3}
+2025-03-16 15:58:31 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:58:34 - INFO - [340656] - Routine -> START
+2025-03-16 15:58:34 - INFO - [340656] - Vendas realizadas: 8
+2025-03-16 15:58:37 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.312, 'hardware': 340656, 'uptime': 401.74, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 15:58:40 - INFO - [340656] - Routine -> END
+2025-03-16 15:58:46 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:58:49 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.437, 'hardware': 340656, 'uptime': 413.18, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 15:59:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.375, 'hardware': 340656, 'uptime': 424.64, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 15:59:02 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:59:11 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.375, 'hardware': 340656, 'uptime': 435.99, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 15:59:17 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:59:23 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.437, 'hardware': 340656, 'uptime': 447.19, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 15:59:33 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:59:34 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.5, 'hardware': 340656, 'uptime': 458.52, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 15:59:45 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.437, 'hardware': 340656, 'uptime': 469.89, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 15:59:48 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 15:59:57 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.5, 'hardware': 340656, 'uptime': 481.25, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:00:04 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 16:00:09 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.5, 'hardware': 340656, 'uptime': 493.27, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:00:19 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 16:00:21 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.5, 'hardware': 340656, 'uptime': 505.15, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:00:33 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.5, 'hardware': 340656, 'uptime': 517.08, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:00:34 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 16:00:44 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.562, 'hardware': 340656, 'uptime': 529.0, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:00:54 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 16:01:00 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.625, 'hardware': 340656, 'uptime': 544.28, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:01:11 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 16:01:12 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.687, 'hardware': 340656, 'uptime': 556.72, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:01:24 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.75, 'hardware': 340656, 'uptime': 568.08, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:01:27 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 16:01:35 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.75, 'hardware': 340656, 'uptime': 579.83, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:01:42 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 16:01:47 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.75, 'hardware': 340656, 'uptime': 591.17, 'credit': 0, 'salescounter': 8, 'gelo': 3}
+2025-03-16 16:01:58 - INFO - [340656] - Gelo no Nível 3 (Alto)
+2025-03-16 16:01:58 - INFO - [340656] - 📤 Enviado dados: {'temperature': 29.812, 'hardware': 340656, 'uptime': 602.91, 'credit': 0, 'salescounter': 8, 'gelo': 3}
